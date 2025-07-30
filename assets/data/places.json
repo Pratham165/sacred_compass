@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Meenakshi Temple",
+    "religion": "Hinduism",
+    "address": "Madurai, Tamil Nadu, India",
+    "latitude": 9.9195,
+    "longitude": 78.1190
+  },
+  {
+    "name": "Golden Temple",
+    "religion": "Sikhism",
+    "address": "Amritsar, Punjab, India",
+    "latitude": 31.6200,
+    "longitude": 74.8765
+  },
+  {
+    "name": "Jama Masjid",
+    "religion": "Islam",
+    "address": "Delhi, India",
+    "latitude": 28.6507,
+    "longitude": 77.2334
+  },
+  {
+    "name": "St. Paul's Cathedral",
+    "religion": "Christianity",
+    "address": "Kolkata, West Bengal, India",
+    "latitude": 22.5372,
+    "longitude": 88.3473
+  },
+  {
+    "name": "Shree Pavapuri Jain Temple",
+    "religion": "Jainism",
+    "address": "Pavapuri, Bihar, India",
+    "latitude": 25.0219,
+    "longitude": 85.4281
+  },
+  {
+    "name": "Mahabodhi Temple",
+    "religion": "Buddhism",
+    "address": "Bodh Gaya, Bihar, India",
+    "latitude": 24.6951,
+    "longitude": 84.9914
+  },
+  {
+    "name": "Fire Temple, Udvada",
+    "religion": "Zoroastrianism",
+    "address": "Udvada, Gujarat, India",
+    "latitude": 20.4406,
+    "longitude": 72.8486
+  },
+  {
+    "name": "Judah Hyam Synagogue",
+    "religion": "Judaism",
+    "address": "Delhi, India",
+    "latitude": 28.6106,
+    "longitude": 77.2177
+  },
+  {
+    "name": "Lotus Temple",
+    "religion": "Baháʼí Faith",
+    "address": "Delhi, India",
+    "latitude": 28.5535,
+    "longitude": 77.2588
+  },
+  {
+    "name": "Somnath Temple",
+    "religion": "Hinduism",
+    "address": "Veraval, Gujarat, India",
+    "latitude": 20.8880,
+    "longitude": 70.4012
+  }
+]
