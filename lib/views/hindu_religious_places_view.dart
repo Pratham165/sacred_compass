@@ -1,12 +1,11 @@
 import '../utils/import_export.dart';
 
-class ReligiousPlacesView extends GetView<ReligiousPlacesController> {
-  const ReligiousPlacesView({super.key});
+class HinduReligiousPlacesView extends GetView<ReligiousPlacesController> {
+  const HinduReligiousPlacesView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final String religionName = Get.arguments as String;
-    final animationController = Get.put(AppAnimationController(), tag: 'places');
+    final animationController = Get.put(AppAnimationController(), tag: 'hindu');
 
     return Scaffold(
       body: Container(
@@ -20,9 +19,9 @@ class ReligiousPlacesView extends GetView<ReligiousPlacesController> {
         child: SafeArea(
           child: Column(
             children: [
-              _buildHeader(religionName),
+              _buildHeader('Hinduism'),
               Expanded(
-                child: _buildPlacesList(religionName, animationController),
+                child: _buildPlacesList('Hinduism', animationController),
               ),
             ],
           ),
@@ -157,3 +156,4 @@ class ReligiousPlacesView extends GetView<ReligiousPlacesController> {
     );
   }
 }
+

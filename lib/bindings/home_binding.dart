@@ -1,5 +1,4 @@
-import 'package:get/get.dart';
-import '../controllers/religious_places_controller.dart';
+import '../utils/import_export.dart';
 
 class HomeBinding extends Bindings {
   @override

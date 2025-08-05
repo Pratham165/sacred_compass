@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../controllers/religious_places_controller.dart';
-import '../theme/app_colors.dart';
-import '../controllers/animation_controller.dart';
-import '../utils/icon_helper.dart';
+import '../utils/import_export.dart';
 
 class HomeView extends GetView<ReligiousPlacesController> {
   const HomeView({super.key});

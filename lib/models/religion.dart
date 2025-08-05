@@ -1,5 +1,4 @@
-
-import 'package:sacred_compass/models/religious_places.dart';
+import '../utils/import_export.dart';
 
 class Religion {
   final String name;

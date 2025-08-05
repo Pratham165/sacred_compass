@@ -1,7 +1,4 @@
-import 'package:get/get.dart';
-
-import '../models/religion.dart';
-import '../models/religious_places.dart';
+import '../utils/import_export.dart';
 
 class ReligiousPlacesController extends GetxController {
   // Observable list of religions
@@ -185,6 +182,28 @@ class ReligiousPlacesController extends GetxController {
   }
 
   void navigateToPlaces(String religionName) {
-    Get.toNamed('/places', arguments: religionName);
+    switch (religionName) {
+      case 'Hinduism':
+        Get.toNamed('/hindu-places');
+        break;
+      case 'Islam':
+        Get.toNamed('/islam-places');
+        break;
+      case 'Christianity':
+        Get.toNamed('/christianity-places');
+        break;
+      case 'Sikhism':
+        Get.toNamed('/sikhism-places');
+        break;
+      case 'Buddhism':
+        Get.toNamed('/buddhism-places');
+        break;
+      case 'Jainism':
+        Get.toNamed('/jainism-places');
+        break;
+      default:
+        Get.toNamed('/places', arguments: religionName);
+        break;
+    }
   }
 }

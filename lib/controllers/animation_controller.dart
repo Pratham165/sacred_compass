@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import '../utils/import_export.dart';
 
 class AppAnimationController extends GetxController with GetSingleTickerProviderStateMixin {
   late AnimationController animationController;

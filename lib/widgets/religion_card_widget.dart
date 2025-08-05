@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../controllers/animation_controller.dart';
-import '../theme/app_colors.dart';
+import '../utils/import_export.dart';
 
 class ReligionCardWidget extends StatelessWidget {
   final String name;

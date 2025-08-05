@@ -1,9 +1,4 @@
-import 'package:get/get.dart';
-import '../bindings/home_binding.dart';
-import '../bindings/splash_binding.dart';
-import '../views/splash_view.dart';
-import '../views/home_view.dart';
-import '../views/religious_places_view.dart';
+import '../utils/import_export.dart';
 
 
 part 'app_routes.dart';
@@ -27,6 +22,36 @@ class AppPages {
     GetPage(
       name: _Paths.places,
       page: () => const ReligiousPlacesView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.hinduPlaces,
+      page: () => const HinduReligiousPlacesView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.islamPlaces,
+      page: () => const IslamReligiousPlacesView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.christianityPlaces,
+      page: () => const ChristianityReligiousPlacesView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.sikhismPlaces,
+      page: () => const SikhismReligiousPlacesView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.buddhismPlaces,
+      page: () => const BuddhismReligiousPlacesView(),
+      binding: HomeBinding(),
+    ),
+    GetPage(
+      name: _Paths.jainismPlaces,
+      page: () => const JainismReligiousPlacesView(),
       binding: HomeBinding(),
     ),
   ];

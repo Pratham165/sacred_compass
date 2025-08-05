@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import '../models/religious_places.dart';
-import '../theme/app_colors.dart';
-import '../utils/icon_helper.dart';
+import '../utils/import_export.dart';
 
 class PlaceCardWidget extends StatelessWidget {
   final ReligiousPlace place;

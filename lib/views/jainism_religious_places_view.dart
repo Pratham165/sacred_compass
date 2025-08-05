@@ -1,12 +1,11 @@
 import '../utils/import_export.dart';
 
-class ReligiousPlacesView extends GetView<ReligiousPlacesController> {
-  const ReligiousPlacesView({super.key});
+class JainismReligiousPlacesView extends GetView<ReligiousPlacesController> {
+  const JainismReligiousPlacesView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final String religionName = Get.arguments as String;
-    final animationController = Get.put(AppAnimationController(), tag: 'places');
+    final animationController = Get.put(AppAnimationController(), tag: 'jainism');
 
     return Scaffold(
       body: Container(
@@ -14,15 +13,15 @@ class ReligiousPlacesView extends GetView<ReligiousPlacesController> {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Color(0xFFE0F7FA), Color(0xFFB2EBF2)],
+            colors: [Color(0xFFE0F7FA), Color(0xFFB2DFDB)],
           ),
         ),
         child: SafeArea(
           child: Column(
             children: [
-              _buildHeader(religionName),
+              _buildHeader('Jainism'),
               Expanded(
-                child: _buildPlacesList(religionName, animationController),
+                child: _buildPlacesList('Jainism', animationController),
               ),
             ],
           ),

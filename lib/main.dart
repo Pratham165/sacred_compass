@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'routes/app_pages.dart';
-import 'theme/app_colors.dart';
+import 'utils/import_export.dart';
 
 void main() {
   runApp(const SacredCompassApp());

@@ -1,6 +1,4 @@
-import 'dart:async';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import '../utils/import_export.dart';
 
 class SplashController extends GetxController with GetTickerProviderStateMixin {
   late AnimationController scaleController;

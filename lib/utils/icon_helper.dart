@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'import_export.dart';
 
 class IconHelper {
   // Map emojis to Material Icons as fallbacks
